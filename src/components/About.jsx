@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import codeImg from "../assets/code.png";
 
 function About() {
   return (
@@ -44,7 +45,7 @@ function About() {
             transition={{ duration: 1 }}
           >
             <img 
-              src="https://media.licdn.com/dms/image/v2/D5603AQHxBtvpeVOTQA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1705134579301?e=1748476800&v=beta&t=VMPckBFcLHCFFIXGc3a4SwZBbwmW-lEn2IrYd7x32AA" 
+              src={codeImg}
               alt="Md Shamse" 
               className="w-60 h-60 object-cover rounded-2xl shadow-xl transform transition-all duration-500 hover:scale-110 hover:rotate-3 hover:cursor-zoom-in"
             />

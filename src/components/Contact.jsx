@@ -45,7 +45,7 @@ function Contact() {
           <div className="flex flex-col md:flex-row items-center justify-center gap-4">
             <a href="mailto:mdshamse19@gmail.com" className="text-sm hover:text-gray-400 font-medium flex items-center space-x-2">
               <HiEnvelope className="w-6 h-6" />
-              <span>mdshamse@gmail.com</span>
+              <span>mdshamse19@gmail.com</span>
             </a>
             <a href="tel:+917986039442" className="text-sm hover:text-gray-400 font-medium flex items-center space-x-2">
               <HiPhone className="w-6 h-6" />
